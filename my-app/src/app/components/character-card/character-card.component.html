@@ -1,0 +1,17 @@
+<div
+  [ngClass]="{ 'character-card-container': true, 'selected-card': isSelected }"
+  (click)="onCardClick()"
+>
+  <div [ngClass]="getNationClass()">
+    <mat-icon class="nation-icon">{{ character.nationality.symbol }}</mat-icon>
+  </div>
+  <div class="character-info-container">
+    <p class="character-name">
+      {{ character.name }}
+    </p>
+    <span class="character-details"> Age: {{ character.age }} </span>
+    <span class="character-details">
+      Nation: {{ character.nationality.name }}
+    </span>
+  </div>
+</div>
