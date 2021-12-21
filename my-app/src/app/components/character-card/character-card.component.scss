@@ -1,17 +1,17 @@
 .air-n {
-  background-color: #a8a4a4;
+  background-color: #a3a3a3;
 }
 
 .fire-n {
-  background-color: #d10808;
+  background-color: #c20000;
 }
 
 .water-n {
-  background-color: #291fac;
+  background-color: #0e00cc;
 }
 
 .earth-n {
-  background-color: #256d1c;
+  background-color: #0f8000;
 }
 
 .character-card-container {
@@ -19,7 +19,9 @@
   margin: 1rem;
   border: 1px solid grey;
   max-width: 300px;
+  min-width: 300px;
   border-radius: 4px;
+  background-color: rgb(32, 31, 31);
 }
 
 .character-name {
@@ -27,6 +29,7 @@
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: 200;
+  color: white;
 }
 
 .character-info-container {
@@ -47,7 +50,7 @@
 }
 
 .character-details {
-  color: grey;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   padding-left: 1rem;
   display: block;

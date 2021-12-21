@@ -4,6 +4,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { CharacterCardModule } from './components/character-card/character-card.
     MatMenuModule,
     MatIconModule,
     CharacterCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
