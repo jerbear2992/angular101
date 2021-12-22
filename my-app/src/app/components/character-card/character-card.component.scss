@@ -1,0 +1,61 @@
+.air-n {
+  background-color: #a3a3a3;
+}
+
+.fire-n {
+  background-color: #c20000;
+}
+
+.water-n {
+  background-color: #0e00cc;
+}
+
+.earth-n {
+  background-color: #0f8000;
+}
+
+.character-card-container {
+  display: flex;
+  margin: 1rem;
+  border: 1px solid grey;
+  max-width: 300px;
+  min-width: 300px;
+  border-radius: 4px;
+  background-color: rgb(32, 31, 31);
+}
+
+.character-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 200;
+  color: white;
+}
+
+.character-info-container {
+  padding: 1rem;
+}
+
+.nation-icon-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  align-items: center;
+  display: flex;
+}
+.nation-icon {
+  height: 48px;
+  width: 48px;
+  font-size: 46px;
+}
+
+.character-details {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  padding-left: 1rem;
+  display: block;
+}
+
+.selected-card {
+  border: 2px solid rgb(255, 0, 242);
+}

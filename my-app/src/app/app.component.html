@@ -1,0 +1,16 @@
+<div class="filter-buttons">
+  <button mat-icon-button>
+    <mat-icon>search</mat-icon>
+  </button>
+  <button mat-icon-button>
+    <mat-icon>filter_list</mat-icon>
+  </button>
+  <button mat-icon-button>
+    <mat-icon>sort_by_alpha</mat-icon>
+  </button>
+</div>
+<div class="card-container">
+  <ng-container *ngFor="let character of currentCharacters">
+    <character-card [character]="character"> </character-card>
+  </ng-container>
+</div>
